@@ -5,6 +5,7 @@ Remove-Item Alias:gc -Force -ErrorAction Ignore
 
 # @Args represent the parameters of input 
 function gc { git clone @Args }
+function dg { degit @Args }
 
 function s { nr serve }
 function d { nr dev }
