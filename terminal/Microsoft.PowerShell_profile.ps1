@@ -1,11 +1,13 @@
-# use @antfu/ni 
+# To use @antfu/ni, Remove-Item the alias 'ni' of New-Item 
 Remove-Item Alias:ni -Force -ErrorAction Ignore
-# gc is the alias of Get-Content default
+# The 'gc' is the alias of Get-Content default
 Remove-Item Alias:gc -Force -ErrorAction Ignore
 
+# @Args represent the parameters of input 
 function gc { git clone @Args }
 
 function s { nr serve }
 function d { nr dev }
 function b { nr build }
+function l { nr lint }
 function t { nr test }

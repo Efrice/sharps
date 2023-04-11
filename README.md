@@ -2,7 +2,7 @@
 
 ## WIP
 
-- [ ] terminal
+- [x] terminal
 - [ ] eslint
 - [ ] template
 - [ ] VS Code Setting
