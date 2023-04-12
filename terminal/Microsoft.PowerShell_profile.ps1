@@ -11,4 +11,5 @@ function s { nr serve }
 function d { nr dev }
 function b { nr build }
 function l { nr lint }
+function lf { nr lint:fix }
 function t { nr test }
