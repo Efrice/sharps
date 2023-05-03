@@ -2,7 +2,7 @@
 
 ## WIP
 
-- [x] terminal
+- [x] terminal  
     Windows PowerShell shortcut cmd setting
 - [ ] eslint
 - [ ] template
