@@ -1,0 +1,149 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderWhitespace": "boundary",
+  "workbench.iconTheme": "file-icons",
+  "workbench.colorTheme": "Vitesse Dark Soft",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.quiet": true,
+  "eslint.validate": ["javascript", "typescript", "vue", "html", "markdown"],
+  "vim.easymotion": true,
+  "vim.flash.enable": true,
+  "vim.leader": "<Space>",
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["quickConsole.createConsoleLog", "extension.vim_ctrl+["]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["quickConsole.clearConsoleLog"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "s"],
+      "commands": [":w!"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": [":wq!"]
+    },
+    {
+      "before": ["<leader>", "r", "n"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "n", "f"],
+      "commands": ["explorer.newFile"]
+    },
+    {
+      "before": ["<leader>", "n", "d"],
+      "commands": ["explorer.newFolder"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["hocusPocus.createFunction"]
+    },
+    {
+      "before": ["<leader>", "v", "v"],
+      "commands": ["hocusPocus.createVariable"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["quickConsole.createConsoleLog"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["quickConsole.clearConsoleLog"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["function-comment.functionComment"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-d>": false,
+    "<C-c>": false
+  },
+  "aws.telemetry": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "search.followSymlinks": false,
+  "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+  "window.zoomLevel": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.stickyTabStops": true,
+  "aws.suppressPrompts": {
+    "codeWhispererConnectionExpired": true,
+    "codeWhispererNewWelcomeMessage": true
+  },
+  "http.proxySupport": "off",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "editor.fontFamily": "hack nerd font",
+  "files.eol": "\n"
+}

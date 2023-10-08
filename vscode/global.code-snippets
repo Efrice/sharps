@@ -1,0 +1,56 @@
+{
+  "log": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "cl",
+    "body": ["console.log($1)"],
+    "description": "console.log"
+  },
+  "import": {
+    "scope": "javascript, typescript",
+    "prefix": "im",
+    "body": ["import $2 from '$1'"],
+    "description": "Import a module"
+  },
+  "import-property": {
+    "scope": "javascript, typescript",
+    "prefix": "imp",
+    "body": ["import { $2 } from '$1'"],
+    "description": "Import property from a module"
+  },
+  "export-variable": {
+    "scope": "javascript, typescript",
+    "prefix": "ev",
+    "body": ["export const $1 = $2"],
+    "description": "export variable const"
+  },
+  "export-function": {
+    "scope": "javascript, typescript",
+    "prefix": "ef",
+    "body": ["export function $1($2){", "}"],
+    "description": "export funtion"
+  },
+  "vue-defineProps": {
+    "scope": "javascript, typescript",
+    "prefix": "dp",
+    "body": ["defineProps<{", "  value: string", "}>()"]
+  },
+  "vue-script-setup": {
+    "scope": "vue",
+    "prefix": "<sc",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "</script>",
+      "",
+      "<template>",
+      "  <div>",
+      "    $1",
+      "  </div>",
+      "</template>"
+    ]
+  },
+  "vue-computed": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "com",
+    "body": ["computed(() => { $1 })"]
+  }
+}
